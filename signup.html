@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="logo.png">
+    <title>Sign up</title>
+  </head>
+  <body>
+    <header>
+      <nav class="row">
+        <div class="row">
+          <img class="logo-image" src="logo.png" alt="" />
+          <a href="index.php">
+            <h1 class="logo">JUST LAB</h1>
+          </a>
+        </div>
+        <ul class="nav-links row">
+          <li>
+            <a href="login.html">Log in</a>
+          </li>
+          <li>
+            <a href="signup.html">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="form-page cover">
+      <div class="card column">
+        <form action="signup.php" method="POST">
+          <h2>Sign up</h2>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Name"
+            required
+          />
+          <label for="studentId">Student ID</label>
+          <input
+            type="text"
+            name="studentId"
+            id="studentId"
+            placeholder="Enter your Student ID"
+            required
+            pattern=".{6}"
+            title="Student ID must be 6 characters long"
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your Password"
+            required
+            minlength="6"
+          />
+          <input type="submit" value="Sign up" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

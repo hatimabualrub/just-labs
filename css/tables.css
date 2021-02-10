@@ -1,0 +1,64 @@
+table {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+th {
+  background-color: #2c3e50;
+  color: #f0c419;
+  font-weight: 300;
+  border: none;
+  padding: 1.2rem 0.7rem;
+}
+
+tr:nth-child(even) {
+  background-color: #ffd86c;
+}
+
+tr:nth-child(odd) {
+  background-color: #fcf6e7;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 1.2rem 0.7rem;
+}
+
+.table-card {
+  width: 90%;
+  margin: 1rem auto;
+  border: 2px #f0c419 solid;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.message-card {
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  border: 2px #f0c419 solid;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+legend {
+  margin: 0 auto;
+  background-color: #f0c419;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+fieldset.cover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+fieldset h1 {
+  font-weight: 300;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
